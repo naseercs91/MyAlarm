@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyAlarm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Alarm Setting Screen</string>
+    <string name="title_activity_demo">Demo Activity Screen</string>
+    <string name="str_btn_set_alarm">Set Alarm</string>
+    <string name="str_btn_quit">Quit</string>
+    <string name="alarm_rooster">alarm rooster </string>
+    
+ 
+</resources>
