@@ -9,6 +9,7 @@
     <string name="str_btn_set_alarm">Set Alarm</string>
     <string name="str_btn_quit">Quit</string>
     <string name="alarm_rooster">alarm rooster </string>
-    
- 
+    <string name="title_activity_repeat">RepeatActivity</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

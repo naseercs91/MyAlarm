@@ -18,16 +18,6 @@
         android:layout_marginTop="58dp" />
 
     <Button
-        android:id="@+id/btn_set_alarm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tp_time"
-        android:layout_below="@+id/tp_time"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="27dp"
-        android:text="Set Alarm" />
-
-    <Button
         android:id="@+id/btn_quit_alarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,5 +27,22 @@
         android:layout_marginRight="24dp"
         android:text="Quit" />
 
+    <Button
+        android:id="@+id/btn_set_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tp_time"
+        android:layout_below="@+id/tp_time"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="28dp"
+        android:text="Set Alarm" />
+
+    <Button
+        android:id="@+id/btn_set_repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_set_alarm"
+        android:layout_toRightOf="@+id/btn_set_alarm"
+        android:text="Repeat Alarm" />
    
 </RelativeLayout>

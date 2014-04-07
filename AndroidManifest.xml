@@ -25,10 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="SoundActivity" >
+        <activity android:name="com.toprecur.myalarm.SoundActivity" >
             <intent-filter>
                 <action android:name="" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.toprecur.myalarm.RepeatActivity"
+            android:label="@string/title_activity_repeat" >
         </activity>
     </application>
 

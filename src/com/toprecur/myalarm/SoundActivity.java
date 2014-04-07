@@ -2,21 +2,29 @@ package com.toprecur.myalarm;
 
 import android.app.Activity;
 import android.app.Notification;
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 
 public class SoundActivity extends Activity {
 	
+	private MediaPlayer mPlay;
+	public Intent intent;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_sound);
+		
+		MediaPlayer mPlay = MediaPlayer.create(this,R.raw.alarm_rooster);
+		mPlay.start();
 		Uri soundURI = Uri
 				.parse("android.resource://course.examples.Notification.StatusBarWithCustomView/"
 						+ R.raw.alarm_rooster);
 		Notification.Builder notificationBuilder = new Notification.Builder(
 				getApplicationContext()).setSound(soundURI);
+		
 	}
 
 	@Override
